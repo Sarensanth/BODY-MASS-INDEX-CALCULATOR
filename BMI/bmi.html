@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+    <title>BMI Calculator</title>
+</head>
+<body style="background: url(health.jpg); background-size: cover;background-repeat:no-repeat;">
+
+    
+  <div class="container">
+    <div class="box">
+      <img src="logo.png" alt="logo">
+ 
+      <div class="content">
+        <div class="input">
+          <label for="height">Height(cm)</label><br>
+          <input type="number" id="height">
+        </div>
+        <div class="input">
+          <label for="weight">Weight(kg)</label><br>
+          <input type="number" id="weight">
+        </div>
+        <button id="calculate">Calculate BMI</button>
+      </div>
+      <div class="result">
+        
+        <div id="result"></div>
+        <p class="comment"></p>
+      </div>
+    </div>
+  </div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>

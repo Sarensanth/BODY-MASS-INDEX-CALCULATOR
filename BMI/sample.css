@@ -1,0 +1,51 @@
+.container{
+    overflow-y: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(195, 208, 220, 0.53);
+    padding: 10px;
+    border-radius: 15px;
+}
+.box {
+    padding: 10px;
+    width: 275px;
+    background: #ffffffb5;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(12, 12, 12, 0.5);
+
+  }
+.content{
+    text-align: center;
+    
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+button#calculate {
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    background: #4f7df9;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: background 0.2s ease;
+    width: 110px;
+
+  }
+  button#calculate:hover {
+    background: #11e7df;
+    cursor: pointer;
+  }
